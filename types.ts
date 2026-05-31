@@ -27,7 +27,7 @@ export interface Arc {
 export interface SEOMeta {
   title: string;
   description: string;
-  schema?: object;
+  schema?: object | object[];
 }
 
 export interface Comment {

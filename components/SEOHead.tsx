@@ -30,16 +30,17 @@ const SEOHead: React.FC<SEOHeadProps> = ({ title, description, schema, canonical
       linkCanonical.setAttribute('href', canonicalUrl);
     }
 
-    // Add Schema.org JSON-LD
+    // Add Schema.org JSON-LD (supports single object or array of objects)
     if (schema) {
-      let scriptSchema = document.querySelector('#structured-data');
-      if (!scriptSchema) {
-        scriptSchema = document.createElement('script');
-        scriptSchema.id = 'structured-data';
+      document.querySelectorAll('script[data-schema]').forEach(el => el.remove());
+      const schemas = Array.isArray(schema) ? schema : [schema];
+      schemas.forEach((s, i) => {
+        const scriptSchema = document.createElement('script');
+        scriptSchema.setAttribute('data-schema', String(i));
         scriptSchema.setAttribute('type', 'application/ld+json');
+        scriptSchema.textContent = JSON.stringify(s);
         document.head.appendChild(scriptSchema);
-      }
-      scriptSchema.textContent = JSON.stringify(schema);
+      });
     }
 
   }, [title, description, schema, canonicalUrl]);

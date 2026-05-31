@@ -12,22 +12,84 @@ const Home: React.FC = () => {
   return (
     <>
       <SEOHead
-        title="Gachiakuta Manga - Read Online High Quality"
-        description="Read Gachiakuta Manga online in high quality. The best place for Gachiakuta chapters, character info, and latest updates. All chapters available."
-        schema={{
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "Gachiakuta Manga",
-          "url": "https://readgachiakutamanga.online",
-        }}
+        title="Read Gachiakuta Manga Online Free — All Chapters"
+        description="Read Gachiakuta Manga Online Free in High Quality. All chapters by Kei Urana available instantly — no sign-up required. Latest releases updated fast."
+        canonicalUrl="https://readgachiakutamanga.online/"
+        schema={[
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "Gachiakuta Manga",
+            "url": "https://readgachiakutamanga.online",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://readgachiakutamanga.online/manga?q={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is the Gachiakuta manga finished?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, the Gachiakuta manga is not finished. It is currently ongoing and new chapters are released weekly in Weekly Shōnen Magazine by Kei Urana."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Did Gachiakuta manga end?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No, Gachiakuta has not ended. The manga continues to be serialized in Weekly Shōnen Magazine with new chapters released regularly."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "When did Gachiakuta manga come out?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Gachiakuta manga began serialization in 2022 in Weekly Shōnen Magazine, published by Kodansha. It was created by author and illustrator Kei Urana."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Who is the author of Gachiakuta manga?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Gachiakuta is written and illustrated by Kei Urana. It has been serialized in Weekly Shōnen Magazine since 2022."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How many volumes does Gachiakuta manga have?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Gachiakuta manga has multiple compiled volumes released by Kodansha. The series is ongoing, so new volumes are released periodically as chapters accumulate."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What is the difference between Gachiakuta anime and manga?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "The Gachiakuta manga offers more detailed art and additional story content that the anime condenses or simplifies. The manga is the original source material and is ahead of the anime adaptation in terms of story progression."
+                }
+              }
+            ]
+          }
+        ]}
       />
 
       {/* Hero Section */}
       <section className="relative w-full min-h-[85vh] flex items-center justify-center overflow-hidden bg-bb-dark py-20">
         <div className="absolute inset-0 z-0 opacity-30 select-none pointer-events-none">
           <img
-            src="/gachiakuta.webp"
-            alt=""
+            src="/gachiakuta-manga-cover.jpg"
+            alt="Gachiakuta Manga Official Cover Artwork - Read Online Free"
             width="1920"
             height="1080"
             fetchPriority="high"
@@ -191,22 +253,27 @@ const Home: React.FC = () => {
             <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6">About Gachiakuta</h2>
             <div className="prose prose-lg dark:prose-invert text-gray-700 dark:text-gray-300 max-w-none space-y-4">
               <p>
-                <strong className="text-gray-900 dark:text-white">Gachiakuta</strong> is an acclaimed manga series written/illustrated by <strong className="text-gray-900 dark:text-white">Kei Urana</strong>. It has been serialized in <strong className="text-gray-900 dark:text-white">Weekly Shōnen Magazine</strong> since 2022. The story follows <strong className="text-gray-900 dark:text-white">Ludo</strong> and other key figures in an epic journey.
+                <strong className="text-gray-900 dark:text-white">Gachiakuta</strong> is an acclaimed manga series written and illustrated by <strong className="text-gray-900 dark:text-white">Kei Urana</strong>. It has been serialized in <strong className="text-gray-900 dark:text-white">Weekly Shōnen Magazine</strong> since <strong className="text-gray-900 dark:text-white">2022</strong>, published by Kodansha. The story is an ongoing action-fantasy series that has quickly built a global fanbase.
               </p>
 
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">Synopsis</h3>
               <p>
-                Falsely accused of a crime, Ludo is thrown into the Abyss. In this waste-filled wasteland, he joins the Janitors, using trash as Jinki weapons to fight beasts.
+                Falsely accused of a crime, <strong className="text-gray-900 dark:text-white">Ludo (Rudo)</strong> is thrown into the Abyss — a massive trash-filled wasteland beneath society. In this brutal underworld, he discovers the <strong className="text-gray-900 dark:text-white">Janitors</strong>, warriors who use discarded trash as <strong className="text-gray-900 dark:text-white">Jinki</strong> weapons to fight monstrous beasts called <strong className="text-gray-900 dark:text-white">Enjin</strong>. Fuelled by rage and a desire for truth, Ludo embarks on a journey that will shake the foundations of both worlds.
               </p>
 
               <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">Key Characters</h3>
               <p>
-                The series features memorable characters including <strong className="text-gray-900 dark:text-white">Ludo</strong>, <strong className="text-gray-900 dark:text-white">Engine</strong>, and <strong className="text-gray-900 dark:text-white">Ryo</strong>.
+                The series features a rich cast including <strong className="text-gray-900 dark:text-white">Rudo (Ludo)</strong> — the hot-headed protagonist, <strong className="text-gray-900 dark:text-white">Enjin</strong> — his powerful Jinki companion, <strong className="text-gray-900 dark:text-white">Regto</strong> — a senior Janitor, and <strong className="text-gray-900 dark:text-white">Amo</strong> — a pivotal character in the series' major arcs.
               </p>
 
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">Why Read Gachiakuta?</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">About the Gachiakuta Manga Author — Kei Urana</h3>
               <p>
-                <strong className="text-gray-900 dark:text-white">Gachiakuta</strong> offers an incredible and unique storyline with high-stakes drama and exceptional artwork. The story builds progressively, keeping readers on the edge of their seats with every chapter.
+                <strong className="text-gray-900 dark:text-white">Kei Urana</strong> is both the writer and illustrator of Gachiakuta. Urana's dynamic art style — featuring intense action panels, expressive characters, and detailed world-building — has been praised as one of the standout qualities of the series. Gachiakuta is Urana's major serialized work in Weekly Shōnen Magazine.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-6 mb-3">Gachiakuta Manga Covers &amp; Art</h3>
+              <p>
+                The <strong className="text-gray-900 dark:text-white">Gachiakuta manga covers</strong> and interior art are known for their striking visual design, with bold color palettes and detailed character artwork. Each volume cover showcases Kei Urana's distinctive illustration style. Iconic <strong className="text-gray-900 dark:text-white">Gachiakuta manga panels</strong> have become popular fan favorites shared across social media.
               </p>
             </div>
           </div>
@@ -222,23 +289,51 @@ const Home: React.FC = () => {
 
           <div className="grid gap-6 md:grid-cols-2">
             <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Why Read Gachiakuta Manga on this Site?</h3>
-              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                Experience <strong>Gachiakuta manga</strong> like never before with high-quality scans and regularly updated chapters. Dive into the intense storyline without delays.
-              </p>
-            </div>
-
-            <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
-              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Differences between Gachiakuta Manga and Anime?</h3>
-              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                The <strong>Gachiakuta manga</strong> offers intense and detailed art that the anime sometimes simplifies. The aura and ego effects are more visceral in the manga.
-              </p>
-            </div>
-
-            <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Is the Gachiakuta Manga Finished?</h3>
               <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-                No, the <strong>Gachiakuta manga</strong> is currently ongoing. New chapters are released in Weekly Shonen Magazine.
+                No, <strong>Gachiakuta manga is not finished</strong>. The series is currently ongoing and new chapters continue to be released in <strong>Weekly Shōnen Magazine</strong> by Kei Urana. You can read all available chapters here free.
+              </p>
+            </div>
+
+            <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Did Gachiakuta Manga End?</h3>
+              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                No, <strong>Gachiakuta has not ended</strong>. The manga is still being serialized with new chapters released regularly. The story is actively ongoing with major plot arcs still unfolding.
+              </p>
+            </div>
+
+            <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">When Did Gachiakuta Manga Come Out?</h3>
+              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                <strong>Gachiakuta manga</strong> began serialization in <strong>2022</strong> in Weekly Shōnen Magazine, published by Kodansha. It was created by <strong>Kei Urana</strong>, who serves as both author and illustrator.
+              </p>
+            </div>
+
+            <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Who is the Gachiakuta Manga Author?</h3>
+              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                <strong>Gachiakuta</strong> is written and illustrated by <strong>Kei Urana</strong>. Urana is the sole creator responsible for both the story and artwork of the series, which has been serialized in Weekly Shōnen Magazine since 2022.
+              </p>
+            </div>
+
+            <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">How Many Volumes Does Gachiakuta Have?</h3>
+              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                <strong>Gachiakuta manga volumes</strong> are released by Kodansha as the series progresses. Since the manga is ongoing, new compiled volumes are published periodically. Individual chapters can be read online here as they release.
+              </p>
+            </div>
+
+            <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Gachiakuta Anime vs Manga — Which is Better?</h3>
+              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                The <strong>Gachiakuta manga</strong> is the original source material and offers more detailed panels, art, and story content than the anime adaptation. Manga readers are significantly ahead of the anime in terms of plot progression.
+              </p>
+            </div>
+
+            <div className="bg-white dark:bg-[#1a1a1a] p-6 rounded-xl border border-gray-200 dark:border-white/5 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-3">Where to Read Gachiakuta Manga Free Online?</h3>
+              <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                You can <strong>read Gachiakuta manga online free</strong> right here at readgachiakutamanga.online. All chapters are available in high quality with no sign-up required. Start with <Link to="/chapter/1" className="text-bb-blue hover:underline">Chapter 1</Link>.
               </p>
             </div>
 
@@ -257,17 +352,17 @@ const Home: React.FC = () => {
             <h2 className="text-3xl font-heading font-bold text-gray-900 dark:text-white mb-6">Read Gachiakuta Manga Online Free</h2>
             <div className="prose prose-lg dark:prose-invert text-gray-700 dark:text-gray-300 max-w-none space-y-4">
               <p>
-                Welcome to <strong>readgachiakutamanga.online</strong>, the premier destination for fans to <strong className="text-bb-blue">Read Gachiakuta Manga</strong> online. We provide high-quality scans of the latest chapters as soon as they are released. Join millions of fans worldwide in following the journey of Ludo.
+                Welcome to <strong>readgachiakutamanga.online</strong> — your go-to site to <strong className="text-bb-blue">read Gachiakuta manga online free</strong>. We provide high-quality scans of every chapter the moment they release. No registration, no paywalls — just the <strong>Gachiakuta manga</strong> you want, instantly.
               </p>
 
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">What is Gachiakuta?</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Read Gachiakuta Manga Chapters Online</h3>
               <p>
-                Falsely accused of a crime, Ludo is thrown into the Abyss. In this waste-filled wasteland, he joins the Janitors, using trash as Jinki weapons to fight beasts.
+                Our complete <strong>Gachiakuta manga chapter</strong> library covers everything from <Link to="/chapter/1" className="text-bb-blue hover:underline">Chapter 1</Link> through the latest release. Browse all <strong>Gachiakuta manga chapters</strong> on our <Link to="/manga" className="text-bb-blue hover:underline">manga list page</Link>. Each chapter loads fast with optimized HD scans for the best <strong>Gachiakuta manga online</strong> reading experience on any device.
               </p>
 
-              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Why is Gachiakuta So Popular?</h3>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white mt-8 mb-4">Gachiakuta Manga Series Background</h3>
               <p>
-                Created by <strong className="text-gray-900 dark:text-white">Kei Urana</strong>, <em>Gachiakuta</em> deconstructs standard tropes, highlighting individual drive and unique storytelling. Combined with exceptional, dynamic art style, it has become a global phenomenon.
+                Created by <strong>Kei Urana</strong>, <em>Gachiakuta</em> launched in Weekly Shōnen Magazine in 2022 and quickly rose to prominence. The series blends action, dark fantasy, and social commentary into a gripping story about survival, identity, and justice. Its <strong>Gachiakuta manga art</strong> — especially the dynamic battle panels — has made it a fan favorite for screenshot collections and artwork tributes worldwide. Physical <strong>Gachiakuta manga volumes</strong> are available through retailers like Amazon for collectors who prefer physical copies.
               </p>
             </div>
           </div>

@@ -22,9 +22,24 @@ const MangaList: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-[#0a0a0a]">
       <SEOHead
-        title="Gachiakuta Manga Library - All Chapters"
-        description="Browse the complete collection of Gachiakuta manga chapters. Read online in high quality."
+        title="Gachiakuta Manga Chapters — Read All Online Free"
+        description="Browse and read all Gachiakuta manga chapters online free. Complete chapter list by Kei Urana — from Chapter 1 to the latest release. No sign-up needed."
         canonicalUrl="https://readgachiakutamanga.online/manga"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": "Gachiakuta Manga — All Chapters",
+          "description": "Complete chapter list for Gachiakuta manga by Kei Urana. Read all chapters online free.",
+          "url": "https://readgachiakutamanga.online/manga",
+          "about": {
+            "@type": "ComicSeries",
+            "name": "Gachiakuta",
+            "author": { "@type": "Person", "name": "Kei Urana" },
+            "publisher": { "@type": "Organization", "name": "Kodansha" },
+            "genre": ["Action", "Fantasy", "Shonen"],
+            "startDate": "2022"
+          }
+        }}
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8">
@@ -37,10 +52,10 @@ const MangaList: React.FC = () => {
         <div className="max-w-7xl mx-auto relative z-10 text-center">
           <span className="text-bb-blue font-bold tracking-widest uppercase text-xs mb-3 block">Complete Collection</span>
           <h1 className="text-4xl md:text-6xl font-heading font-bold text-white mb-6">
-            GACHIAKUTA <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">MANGA Library</span>
+            GACHIAKUTA <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">MANGA Chapters</span>
           </h1>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg font-light">
-            Read every chapter of the Gachiakuta Manga by Kei Urana. From the very beginning to the latest release.
+            Read all Gachiakuta manga chapters online free. Complete collection by Kei Urana — from Chapter 1 to the latest release. No sign-up required.
           </p>
         </div>
       </div>

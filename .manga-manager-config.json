@@ -1,0 +1,21 @@
+{
+  "mangaEdgeSlug": "ru8jmi-gachiakuta",
+  "history": [
+    {
+      "id": "7szs724",
+      "date": "2026-05-30T16:17:18.774Z",
+      "type": "scrape",
+      "description": "Scraped successfully during bulk sync. Found 3 new chapter(s): Ch. 140.2, Ch. 162.2, Ch. 167.2.",
+      "details": {
+        "newChaptersCount": 3,
+        "newChapterNumbers": [
+          140.2,
+          162.2,
+          167.2
+        ],
+        "totalChapters": 170,
+        "bulkSync": true
+      }
+    }
+  ]
+}

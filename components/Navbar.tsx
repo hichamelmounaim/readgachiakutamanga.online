@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
 
           {/* Logo */}
           <Link to="/" className="flex-shrink-0 flex items-center gap-2 group">
-            <img src="/logo.png" alt="Gachiakuta Manga" className="h-10 w-auto" />
+            <img src="/gachiakuta-manga-logo.png" alt="Gachiakuta Manga Logo - Read Online Free" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
