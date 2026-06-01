@@ -1,7 +1,6 @@
 import React from 'react';
 import SEOHead from '../components/SEOHead';
 import { CHARACTERS } from '../constants';
-import { ArrowRight } from 'lucide-react';
 
 const Characters: React.FC = () => {
   return (
@@ -37,15 +36,9 @@ const Characters: React.FC = () => {
                 </div>
               </div>
 
-              <p className="text-gray-400 text-sm leading-relaxed flex-1 mb-8">
+              <p className="text-gray-400 text-sm leading-relaxed flex-1">
                 {char.description || "No description available."}
               </p>
-
-              <div className="pt-4 border-t border-white/5">
-                <button className="text-sm font-bold text-white hover:text-bb-blue transition-colors flex items-center gap-2 group-hover:translate-x-1 duration-200">
-                  Read Full Profile <ArrowRight className="w-4 h-4" />
-                </button>
-              </div>
             </div>
           </div>
         ))}
