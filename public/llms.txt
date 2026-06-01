@@ -1,0 +1,31 @@
+# Gachiakuta Manga — readgachiakutamanga.online
+
+## About
+Gachiakuta Manga is a fan reading platform dedicated to the manga series "Gachiakuta" (ガチアクタ) by Kei Urana. The site provides free access to high-quality English scans of all available chapters.
+
+## Manga Info
+- Title: Gachiakuta
+- Alternative Titles: ガチアクタ
+- Author: Kei Urana
+- Publisher: Kodansha (Weekly Shōnen Magazine)
+- Serialization Start: February 16, 2022
+- Status: Ongoing
+- Genre: Action, Adventure, Shounen, Dark Fantasy
+- Synopsis: Rudo is a boy from the Slums who is falsely accused of murder and thrown into the Pit — a massive landfill below the floating city. There he discovers the supernatural power of Reapers, who can bring inanimate garbage to life as weapons, and fights to survive and clear his name.
+
+## Key Characters
+- Rudo — protagonist, Reaper who fights with trash-based weapons
+- Ishi — Rudo's mentor inside the Pit
+
+## Site Pages
+- Homepage: https://readgachiakutamanga.online/
+- All Chapters: https://readgachiakutamanga.online/manga
+- Chapter Reader: https://readgachiakutamanga.online/chapter/{number}
+- Characters: https://readgachiakutamanga.online/characters
+- About: https://readgachiakutamanga.online/about
+
+## Contact
+Email: support@readgachiakutamanga.online
+
+## Disclaimer
+This is a fan project. Not affiliated with Kei Urana or Kodansha. All manga content belongs to their respective copyright owners.

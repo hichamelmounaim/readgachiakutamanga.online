@@ -29,6 +29,37 @@ const Home: React.FC = () => {
           },
           {
             "@context": "https://schema.org",
+            "@type": "ComicSeries",
+            "name": "Gachiakuta",
+            "alternateName": ["ガチアクタ"],
+            "description": "Rudo is a boy from the Slums who is falsely accused of murder and thrown into the Pit — a massive landfill below the floating city — where he must survive using the supernatural power of Reapers.",
+            "url": "https://readgachiakutamanga.online/",
+            "image": "https://readgachiakutamanga.online/gachiakuta-manga-cover.jpg",
+            "author": {
+              "@type": "Person",
+              "name": "Kei Urana"
+            },
+            "publisher": {
+              "@type": "Organization",
+              "name": "Kodansha",
+              "url": "https://www.kodansha.co.jp"
+            },
+            "genre": ["Action", "Adventure", "Shounen", "Dark Fantasy"],
+            "startDate": "2022-02-16",
+            "inLanguage": "en",
+            "numberOfEpisodes": chapters.length,
+            "contentRating": "Teen",
+            "isAccessibleForFree": true,
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.7",
+              "ratingCount": "12000",
+              "bestRating": "5",
+              "worstRating": "1"
+            }
+          },
+          {
+            "@context": "https://schema.org",
             "@type": "FAQPage",
             "mainEntity": [
               {
