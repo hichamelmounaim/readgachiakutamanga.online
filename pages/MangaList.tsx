@@ -39,13 +39,13 @@ const MangaList: React.FC = () => {
       <SEOHead
         title="Gachiakuta Manga Chapters — Read All Online Free"
         description="Browse and read all Gachiakuta manga chapters online free. Complete chapter list by Kei Urana — from Chapter 1 to the latest release. No sign-up needed."
-        canonicalUrl="https://readgachiakutamanga.online/manga"
+        canonicalUrl="https://www.readgachiakutamanga.online/manga"
         schema={{
           "@context": "https://schema.org",
           "@type": "CollectionPage",
           "name": "Gachiakuta Manga — All Chapters",
           "description": "Complete chapter list for Gachiakuta manga by Kei Urana. Read all chapters online free.",
-          "url": "https://readgachiakutamanga.online/manga",
+          "url": "https://www.readgachiakutamanga.online/manga",
           "about": {
             "@type": "ComicSeries",
             "name": "Gachiakuta",

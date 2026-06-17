@@ -18,11 +18,11 @@ Gachiakuta Manga is a fan reading platform dedicated to the manga series "Gachia
 - Ishi — Rudo's mentor inside the Pit
 
 ## Site Pages
-- Homepage: https://readgachiakutamanga.online/
-- All Chapters: https://readgachiakutamanga.online/manga
-- Chapter Reader: https://readgachiakutamanga.online/chapter/{number}
-- Characters: https://readgachiakutamanga.online/characters
-- About: https://readgachiakutamanga.online/about
+- Homepage: https://www.readgachiakutamanga.online/
+- All Chapters: https://www.readgachiakutamanga.online/manga
+- Chapter Reader: https://www.readgachiakutamanga.online/chapter/{number}
+- Characters: https://www.readgachiakutamanga.online/characters
+- About: https://www.readgachiakutamanga.online/about
 
 ## Contact
 Email: support@readgachiakutamanga.online

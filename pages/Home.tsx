@@ -20,16 +20,16 @@ const Home: React.FC = () => {
       <SEOHead
         title="Read Gachiakuta Manga Online Free — All Chapters"
         description="Read Gachiakuta Manga Online Free in High Quality. All chapters by Kei Urana available instantly — no sign-up required. Latest releases updated fast."
-        canonicalUrl="https://readgachiakutamanga.online/"
+        canonicalUrl="https://www.readgachiakutamanga.online/"
         schema={[
           {
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "Gachiakuta Manga",
-            "url": "https://readgachiakutamanga.online",
+            "url": "https://www.readgachiakutamanga.online",
             "potentialAction": {
               "@type": "SearchAction",
-              "target": "https://readgachiakutamanga.online/manga?q={search_term_string}",
+              "target": "https://www.readgachiakutamanga.online/manga?q={search_term_string}",
               "query-input": "required name=search_term_string"
             }
           },
@@ -39,8 +39,8 @@ const Home: React.FC = () => {
             "name": "Gachiakuta",
             "alternateName": ["ガチアクタ"],
             "description": "Rudo is a boy from the Slums who is falsely accused of murder and thrown into the Pit — a massive landfill below the floating city — where he must survive using the supernatural power of Reapers.",
-            "url": "https://readgachiakutamanga.online/",
-            "image": "https://readgachiakutamanga.online/gachiakuta-manga-cover.jpg",
+            "url": "https://www.readgachiakutamanga.online/",
+            "image": "https://www.readgachiakutamanga.online/gachiakuta-manga-cover.jpg",
             "author": {
               "@type": "Person",
               "name": "Kei Urana"
@@ -423,11 +423,11 @@ const Home: React.FC = () => {
         </div>
         <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {[
-            { name: 'Kagurabachi', url: 'https://kagurabachimanga.online/', desc: 'Enchanted blade revenge', emoji: '⚔️' },
-            { name: 'Blue Lock', url: 'https://readbluelockmanga.online/', desc: 'Soccer & ego battle', emoji: '⚽' },
-            { name: 'Dandadan', url: 'https://readdandadanmanga.online/', desc: 'Aliens & ghosts chaos', emoji: '👾' },
-            { name: 'Nano Machine', url: 'https://nanomachinemanga.online/', desc: 'Futuristic murim rise', emoji: '⚙️' },
-            { name: 'Kingdom', url: 'https://readkingdommanga.online/', desc: '876 ch. epic history', emoji: '🏯' },
+            { name: 'Kagurabachi', url: 'https://www.kagurabachimanga.online/', desc: 'Enchanted blade revenge', emoji: '⚔️' },
+            { name: 'Blue Lock', url: 'https://www.readbluelockmanga.online/', desc: 'Soccer & ego battle', emoji: '⚽' },
+            { name: 'Dandadan', url: 'https://www.readdandadanmanga.online/', desc: 'Aliens & ghosts chaos', emoji: '👾' },
+            { name: 'Nano Machine', url: 'https://www.nanomachinemanga.online/', desc: 'Futuristic murim rise', emoji: '⚙️' },
+            { name: 'Kingdom', url: 'https://www.readkingdommanga.online/', desc: '876 ch. epic history', emoji: '🏯' },
           ].map(site => (
             <a key={site.url} href={site.url} target="_blank" rel="noopener noreferrer" className="group flex flex-col items-center gap-2 p-5 bg-white/3 border border-white/5 rounded-xl hover:border-bb-blue/30 hover:bg-bb-blue/5 transition-all text-center">
               <span className="text-3xl">{site.emoji}</span>

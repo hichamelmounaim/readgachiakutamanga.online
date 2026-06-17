@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
     { name: 'Home', path: '/' },
     { name: 'All Chapters', path: '/manga' },
     { name: 'Characters', path: '/characters' },
-    { name: 'Read Kagurabachi Manga', path: 'https://kagurabachimanga.online/', isExternal: true },
+    { name: 'Read Kagurabachi Manga', path: 'https://www.kagurabachimanga.online/', isExternal: true },
   ];
 
   const isActive = (path: string) => location.pathname === path;

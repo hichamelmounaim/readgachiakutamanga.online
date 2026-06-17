@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://readgachiakutamanga.online/sitemap.xml
+Sitemap: https://www.readgachiakutamanga.online/sitemap.xml
